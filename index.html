@@ -101,95 +101,67 @@
 
     <section id="projects" class="reveal">
       <h2>Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Noise Detection in ECG Signal</h3>
-          <p class="project-timeline">Apr 2024 – Jan 2025 · Dr. Haroon Lone</p>
-          <div class="project-desc">
-            <p>Detected noise/artifacts in ECG signals from wearable devices. Applied machine learning techniques for
-              data cleaning, visualization, and feature extraction. Achieved 96.4% accuracy and 91.8% AUPRC using
-              various classification algorithms while addressing class imbalance. Collected real-life data using Shimmer
-              sensors from approximately 6 participants.</p>
-            <a href="https://doi.org/10.1145/3715071.3750402" target="_blank" class="project-link">View Paper</a>
+      <div class="project-list">
+        <a href="projects/noise-detection.html" class="project-list-item">
+          <div class="project-list-info">
+            <span class="project-list-bullet">•</span>
+            <div class="project-list-text">
+              <span class="project-list-title">Noise Detection in ECG Signal</span>
+              <span class="project-list-desc">ML framework to detect noise in wearable ECG signals, achieving 96.4% accuracy on Shimmer sensor data.</span>
+            </div>
           </div>
-          <div class="project-tags">
-            <span class="tag">Research</span>
-            <span class="tag">Signal Processing</span>
-            <span class="tag">Wearable Sensing</span>
+          <span class="project-list-arrow">→</span>
+        </a>
+        <a href="projects/iot-braille.html" class="project-list-item">
+          <div class="project-list-info">
+            <span class="project-list-bullet">•</span>
+            <div class="project-list-text">
+              <span class="project-list-title">IoT-Enabled Braille Display for UPI Payment Verification</span>
+              <span class="project-list-desc">Low-cost IoT Braille display under $35 with ESP32, BLE, and Android app for accessible UPI payments.</span>
+            </div>
           </div>
-        </div>
-
-        <div class="project-card">
-          <h3>IoT-Enabled Braille Display for UPI Payment Verification</h3>
-          <p class="project-timeline">Jan 2025 – May 2025 · Course Project</p>
-          <div class="project-desc">
-            <p>Developed a low-cost IoT Braille display (under $35 USD) for private UPI payment verification. Engineered
-              a full-stack system using an Android app, BLE, and an ESP32-powered hardware prototype. Optimized the
-              design to use 4 instead of 6 servo motors per digit, reducing cost and complexity. Validated the prototype
-              in a user study, achieving high accuracy (4.8/5.0) and usability (4.0/5.0) scores.</p>
-            <a href="pdf/IoT_Braille_Display.pdf" target="_blank" class="project-link">View Project PDF</a>
+          <span class="project-list-arrow">→</span>
+        </a>
+        <a href="projects/federated-learning.html" class="project-list-item">
+          <div class="project-list-info">
+            <span class="project-list-bullet">•</span>
+            <div class="project-list-text">
+              <span class="project-list-title">Evaluating Federated Learning for Mood Inference</span>
+              <span class="project-list-desc">Hybrid FL model for cross-cultural mood inference on the DiversityOne dataset across 6 countries.</span>
+            </div>
           </div>
-          <div class="project-tags">
-            <span class="tag">Course Project</span>
-            <span class="tag">IoT</span>
-            <span class="tag">Hardware</span>
-            <span class="tag">Accessibility</span>
+          <span class="project-list-arrow">→</span>
+        </a>
+        <a href="projects/physiological-signals.html" class="project-list-item">
+          <div class="project-list-info">
+            <span class="project-list-bullet">•</span>
+            <div class="project-list-text">
+              <span class="project-list-title">Analyzing Multimodal Physiological Signals for Social Anxiety Detection</span>
+              <span class="project-list-desc">Multimodal ECG &amp; EDA analysis with ML to detect social anxiety biomarkers from wearable sensors.</span>
+            </div>
           </div>
-        </div>
-
-        <div class="project-card">
-          <h3>Evaluating Federated Learning for Mood Inference from Smartphone Sensing Data</h3>
-          <p class="project-timeline">Aug 2025 – Nov 2025 · Course Project</p>
-          <div class="project-desc">
-            <p>Evaluated federated learning on the DiversityOne dataset (250 participants, 6 countries). Preprocessed
-              heterogeneous data using windowing, KNN-imputation, and feature extraction (50–63 features). Designed a
-              hybrid FL model with a shared global encoder and local country-specific encoders for personalized
-              cross-cultural mood inference. Achieved near-baseline AUROC and matched centralized performance across
-              countries.</p>
-            <a href="https://arxiv.org/pdf/2602.15478" target="_blank" class="project-link">View on arXiv</a>
+          <span class="project-list-arrow">→</span>
+        </a>
+        <a href="projects/imu-cooking.html" class="project-list-item">
+          <div class="project-list-info">
+            <span class="project-list-bullet">•</span>
+            <div class="project-list-text">
+              <span class="project-list-title">Multimodal IMU Data for Real-Time Cooking Activity Recognition</span>
+              <span class="project-list-desc">ConvLSTM-based HAR from IMU data with a 40-recording user study at IIT Jodhpur.</span>
+            </div>
           </div>
-          <div class="project-tags">
-            <span class="tag">Course Project</span>
-            <span class="tag">Federated Learning</span>
-            <span class="tag">Affective Computing</span>
+          <span class="project-list-arrow">→</span>
+        </a>
+        <a href="projects/dc-mrta.html" class="project-list-item">
+          <div class="project-list-info">
+            <span class="project-list-bullet">•</span>
+            <div class="project-list-text">
+              <span class="project-list-title">Decentralized Multi-Robot Task Allocation (DC-MRTA)</span>
+              <span class="project-list-desc">RL-based multi-robot coordination with ORCA collision avoidance for 10-robot autonomous task allocation.</span>
+            </div>
           </div>
-        </div>
-
-        <div class="project-card">
-          <h3>Analyzing Multimodal Physiological Signals for Social Anxiety Detection</h3>
-          <p class="project-timeline">Jan 2026 – June 2026 · Bachelor's Thesis · Dr. Haroon Lone</p>
-          <div class="project-desc">
-            <p>Analyzing multimodal physiological signals (ECG, EDA) to study responses during social anxiety–inducing
-              tasks. Performing statistical testing and feature engineering to quantify group-level physiological
-              differences. Building predictive machine learning models to detect social anxiety–related biomarkers from
-              wearable sensor data.</p>
-            <a href="https://dl.acm.org/doi/abs/10.1145/3830727.3834816" target="_blank" class="project-link">View
-              Paper</a>
-          </div>
-          <div class="project-tags">
-            <span class="tag">Bachelor's Thesis</span>
-            <span class="tag">Wearable Sensing</span>
-            <span class="tag">Affective Computing</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <h3>Multimodal IMU Data for Real-Time Cooking Activity Recognition</h3>
-          <p class="project-timeline">May 2025 – July 2025 · Dr. Suchetana Chakraborty, IIT Jodhpur</p>
-          <div class="project-desc">
-            <p>Collected and analyzed multimodal IMU data for real-time cooking activity recognition. Explored public
-              datasets and developed ML and ConvLSTM models for time-series based Human Activity Recognition. Conducted
-              a user study with 40 real-world recordings and applied preprocessing, EDA, and modeling to interpret IMU
-              signal patterns.</p>
-            <a href="#PAPER_LINK_IMU" target="_blank" class="project-link">View Paper</a>
-          </div>
-          <div class="project-tags">
-            <span class="tag">Research Internship</span>
-            <span class="tag">HAR</span>
-            <span class="tag">IMU Sensing</span>
-          </div>
-        </div>
-
+          <span class="project-list-arrow">→</span>
+        </a>
       </div>
     </section>
 
